@@ -1,0 +1,94 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #fdf6e3;
+    color: #333;
+}
+
+header {
+    background: #ff7043;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav h1 {
+    display: inline-block;
+}
+
+nav ul {
+    display: block;
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffe0b2;
+}
+
+.hero .btn-whatsapp {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact {
+    padding: 20px;
+}
+
+.contact .btn-whatsapp {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #ff7043;
+    color: white;
+}
+
+.map iframe {
+    margin-top: 10px;
+    border-radius: 5px;
+}
